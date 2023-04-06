@@ -477,3 +477,45 @@ body {
   border-radius: 15px;
   padding-top: 28px;
 }
+.ourstats__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourstats__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 121%;
+  color: #000000;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+.ourstats__body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 39px 98px;
+  max-width: 1192px;
+  background: #202020;
+}
+.ourstats__item {
+  margin-bottom: 30px;
+}
+.item-ourstats > *:not(:last-child) {
+  margin-bottom: 12px;
+}
+.item-ourstats__stat {
+  color: #FFAFAF;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 121%;
+}
+.item-ourstats__description {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 125%;
+  color: #FAFAFA;
+}
+.item-ourstats:not(:last-child) .item-ourstats__stat {
+  margin-right: 335px;
+}
