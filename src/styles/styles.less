@@ -980,3 +980,69 @@ body {
     }
   }
 }
+
+.footer {
+  background: #111111;
+
+  &__container {
+    padding-top: 54px;
+    padding-bottom: 1 9px;
+  }
+
+  &__main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 39px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 40px;
+
+    &:not(:last-child) {
+      margin-right: 151px;
+    }
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 118%;
+    color: #fff;
+
+    &:not(:last-child) {
+      margin-bottom: 27px;
+    }
+  }
+}
+
+.getintouch {
+  &__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 121%;
+    color: #ffffff;
+
+    &:not(:last-child) {
+      margin-bottom: 45px;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 125%;
+    min-height: 41px;
+    color: #fff;
+    background: #FFAFAF;
+    border-radius: 10px;
+    padding: 13px 53px;
+  }
+}
