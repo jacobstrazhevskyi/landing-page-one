@@ -651,6 +651,7 @@ body {
   padding-right: 49px;
   background: #F6E2E3;
   border-radius: 10px;
+  margin-bottom: 58px;
 }
 .subscribe__body:not(:last-child) {
   margin-right: 72px;
@@ -697,4 +698,32 @@ body {
   font-size: 16px;
   line-height: 19px;
   margin-right: 20px;
+}
+.ourpartners__container {
+  padding-bottom: 50px;
+}
+.ourpartners__title {
+  padding-bottom: 50px;
+}
+.ourpartners__partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partners {
+  width: 100%;
+}
+.partners__partner {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  margin-bottom: 15px;
+}
+.partners__partner:not(:last-child) {
+  margin-right: 152px;
+}
+.partners__partner:nth-of-type(2n) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 122%;
 }
