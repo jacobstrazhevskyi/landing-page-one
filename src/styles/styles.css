@@ -643,3 +643,58 @@ body {
 .button-testimonials--active > .button-testimonials__label::after {
   border-top: 3px solid #FC9F9F;
 }
+.subscribe__container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 66px;
+  padding-left: 59px;
+  padding-right: 49px;
+  background: #F6E2E3;
+  border-radius: 10px;
+}
+.subscribe__body:not(:last-child) {
+  margin-right: 72px;
+}
+.subscribe__title {
+  max-width: 546px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 121%;
+}
+.subscribe__title:not(:last-child) {
+  margin-bottom: 46px;
+}
+.subscribe__form {
+  display: flex;
+}
+.subscribe__preview {
+  width: 454px;
+  height: 230px;
+  background: #FFAFAF;
+  border-radius: 10px;
+}
+.form-subscribe__button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #FFAFAF;
+  border-radius: 10px;
+  padding: 0 73px;
+}
+.form-subscribe__input {
+  flex: 1 1 auto;
+  padding: 21px 16px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 20px;
+}
